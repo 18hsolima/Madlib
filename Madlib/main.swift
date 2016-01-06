@@ -20,3 +20,17 @@ func input() -> String {
 
 //Group name: SUPER AWESOME UGU FUN TIME.
 //Group members: Luka (Leader), Alex, Devin
+
+var begin = true
+
+while begin {
+    print("Welcome to the Mad Lib, please type 'Start' to begin")
+    var begin1 = input()
+    
+    if begin1 == "Start" {
+        print("Welcome to the Mad Lib")
+        begin = false
+    }else {
+        print("Type 'Start' to begin")
+}
+}
