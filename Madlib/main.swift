@@ -8,7 +8,6 @@
 
 import Foundation
 
-sdfghjk
 
 func input() -> String {
     var keyboard = NSFileHandle.fileHandleWithStandardInput()
