@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+print("test")
 /*
 Input function
 This function prompts the user for input and returns a string.
