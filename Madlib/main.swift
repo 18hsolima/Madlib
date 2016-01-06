@@ -8,6 +8,13 @@
 
 import Foundation
 
+    var keyboard = NSFileHandle.fileHandleWithStandardInput()
+    var inputData = keyboard.availableData
+    var strData = NSString(data: inputData, encoding: NSUTF8StringEncoding)!
+    
+    return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
+}
+
 
 //Group name: SUPER AWESOME UGU FUN TIME.
-//Group members: Luka (Leader), Alex, Devin
+//Group members: Luka (Leader), Alex, Devinfunc input() -> String {
