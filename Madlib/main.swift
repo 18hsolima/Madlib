@@ -37,16 +37,18 @@ while begin {
         
         print("Please select a Mad Lib from one of these below")
         print("Mad Lib 1")
-        var madlib6 = input()
-        if madlib6 == "6" {
-        print("Welcome to Mad Lib #1")
-        //Mad Lib 1 here
-            
-            
-            
-            
-            
-            
+        print("Mad Lib 2")
+        print("Mad Lib 3")
+        print("Mad Lib 4")
+        print("Mad Lib 5")
+        var madlib = input()
+
+        if madlib == "1" {
+            print("Welcome to Mad Lib 2")
+        }
+        
+        else
+        
             
         print("Mad Lib 2")
         var madlib7 = input()
@@ -67,37 +69,12 @@ while begin {
         if madLib1 == "Mad Lib Name" {
 
         print("Welcome to Mad Lib #1")
-            //Mad Lib 1 here
+            //Mad Lib 2 here
         
 
         
         
         }else {
-        
-        print("Mad Lib #2 (Yet to be named)")
-        var madLib2 = input()
-        if madLib2 == "Mad Lib Name2" {
-        print("Welcome to Mad Lib 2")
-    
-        }else {
-        print("Mad Lib #3 (Yet to be named)")
-        var madLib3 = input()
-        if madLib3 == "Mad Lib 3"{
-        print("Welcoem to Mad Lib 3")
-        
-        }else {
-        print("Mad Lib #4 (Yet to be named)")
-        var madLib4 = input()
-        if madLib4 == "Mad Lib 4" {
-        print("Welcome to Mad Lib 4")
-        
-        }else {
-        print("Mad Lib #5 (Yet to be named)")
-        var madLib5 = input()
-        if madLib5 == "Mad Lib 5" {
-        print("Welcome to Mad Lib 5")
-        
-        }else {
         print("Type 'Start' to begin")
     }
-}
+            }}}}}}
