@@ -34,11 +34,29 @@ while begin {
     if begin1 == "Start" {
         print("Welcome to the Mad Lib")
         begin = false
-        print("Please choose a Mad Lib from the ones below")
         
+        print("Please select a Mad Lib from one of these below")
         
         
     }else {
         print("Type 'Start' to begin")
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
