@@ -39,10 +39,27 @@ while begin {
         print("Mad Lib 1")
         var madlib6 = input()
         if madlib6 == "6" {
+        print("Welcome to Mad Lib #1")
+        //Mad Lib 1 here
+            
+            
+            
+            
+            
+            
+            
         print("Mad Lib 2")
         var madlib7 = input()
-        if madlib7 == "7"
-            
+        if madlib7 == "7"{
+        print("Mad Lib 3")
+        var madlib8 = input()
+        if madlib8 == "8"{
+        print("Mad Lib 4")
+        var madlib9 = input()
+        if madlib9 == "9"{
+        print("Mad Lib 10")
+        var madlib10 = input()
+        if madlib10 == "10"{
             
             
         print("Mad Lib #1 (Yet to be named)")
@@ -84,4 +101,4 @@ while begin {
         print("Type 'Start' to begin")
     }
 }
-            }}}}}}
+            }}}}}}}}}}
