@@ -36,8 +36,24 @@ while begin {
         begin = false
         
         print("Please select a Mad Lib from one of these below")
+        print("Mad Lib #1 (Yet to be named)")
+        var madLib1 = input()
+        if madLib1 == "Mad Lib Name" {
+            print("Welcome to Mad Lib #1")
+print("PLease type a veggie")
+var veggie = input()
         
+print("Please type a fruit")
+var fruit = input()
+        }
         
+        print("Mad Lib #2 (Yet to be named)")
+        
+        print("Mad Lib #3 (Yet to be named)")
+        
+        print("Mad Lib #4 (Yet to be named)")
+        
+        print("Mad Lib #5 (Yet to be named)")
     }else {
         print("Type 'Start' to begin")
     }
