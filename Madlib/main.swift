@@ -42,12 +42,16 @@ while begin {
         print("Mad Lib 4")
         print("Mad Lib 5")
         var madlib = input()
-
         if madlib == "1" {
-            print("Welcome to Mad Lib 2")
-        }
+        print("Welcome to Mad Lib 1")
+        // Enter Mad Lib 1 Here
         
-        else
+        
+        
+        
+        
+        
+        }else{
         
             
         print("Mad Lib 2")
@@ -77,4 +81,4 @@ while begin {
         }else {
         print("Type 'Start' to begin")
     }
-            }}}}}}
+            }}}}}}}
