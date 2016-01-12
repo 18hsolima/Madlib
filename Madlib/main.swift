@@ -26,6 +26,9 @@ func input() -> String {
 //Group members: Luka (Leader), Alex, Devin
 
 var begin = true
+// Welcome screen, user input menu, and Each select to run Mad Lib to begin madlib created by Alex Y.
+
+
 
 while begin {
     print("Welcome to the Mad Lib, please type 'Start' to begin")
@@ -41,6 +44,7 @@ while begin {
         print("Mad Lib 3")
         print("Mad Lib 4")
         print("Mad Lib 5")
+        print("Exit")
         var madlib = input()
         if madlib == "1" {
         print("Welcome to Mad Lib 1")
@@ -51,34 +55,122 @@ while begin {
         
         
         
+        
+        
+        
+        
         }else{
+            
+        var madlib2 = input()
+        if madlib2 == "2" {
+        print("Welcome to Mad Lib 2")
+        //Enter Mad Lib 2 Here
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        }else{
+            
+        var madlib3 = input()
+        if madlib3 == "3" {
+        print("Welcome to Mad Lib 3")
+        //Enter Mad Lib 3 Here
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
         
             
-        print("Mad Lib 2")
-        var madlib7 = input()
-        if madlib7 == "7"{
-        print("Mad Lib 3")
-        var madlib8 = input()
-        if madlib8 == "8"{
-        print("Mad Lib 4")
-        var madlib9 = input()
-        if madlib9 == "9"{
-        print("Mad Lib 10")
-        var madlib10 = input()
-        if madlib10 == "10"{
             
             
-        print("Mad Lib #1 (Yet to be named)")
-        var madLib1 = input()
-        if madLib1 == "Mad Lib Name" {
+            
+            
+            
+            
+        }else{
+        var madlib4 = input()
+        if madlib4 == "4" {
+        print("Welcome to Mad Lib 4")
+        //Enter Mad Lib 4 Here
 
-        print("Welcome to Mad Lib #1")
-            //Mad Lib 2 here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }else{
+        var madlib5 = input()
+        if madlib5 == "5" {
+        print("Welcome to Mad Lib 5")
+        //Enter Mad Lib 5 Here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }else{
+        var quit = input()
+        if quit == "Exit" {
+            print("Welcome to the Mad Lib, please type 'Start' to begin")
+            var begin1 = input()
+            begin = true
         
 
-        
-        
-        }else {
-        print("Type 'Start' to begin")
-    }
-            }}}}}}}
+
+
+
+            }}}}}}}}
+       
