@@ -29,7 +29,6 @@ var begin = true
 // Welcome screen, user input menu, and Each select to run Mad Lib to begin madlib created by Alex Y.
 
 
-
 while begin {
     print("Welcome to the Mad Lib, please type 'Start' to begin")
     var begin1 = input()
@@ -44,7 +43,11 @@ while begin {
         print("Mad Lib 3")
         print("Mad Lib 4")
         print("Mad Lib 5")
-        print("Exit")
+        print("Exit *Hit 'return key' a few times after typing 'Exit' to exit*")
+    
+    }
+    
+    
         var madlib = input()
         if madlib == "1" {
         print("Welcome to Mad Lib 1")
@@ -59,118 +62,49 @@ while begin {
         
         
         
-        }else{
-            
-        var madlib2 = input()
-        if madlib2 == "2" {
+        } else if madlib == "2"{
         print("Welcome to Mad Lib 2")
         //Enter Mad Lib 2 Here
+        
             
             
             
             
             
+    
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        }else{
-            
-        var madlib3 = input()
-        if madlib3 == "3" {
+        } else if madlib == "3" {
         print("Welcome to Mad Lib 3")
         //Enter Mad Lib 3 Here
             
+
             
             
             
             
+
             
             
-            
-            
-            
-        
-            
-            
-            
-            
-            
-            
-            
-        }else{
-        var madlib4 = input()
-        if madlib4 == "4" {
+        } else if madlib == "4"{
         print("Welcome to Mad Lib 4")
         //Enter Mad Lib 4 Here
+           
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-        }else{
-        var madlib5 = input()
-        if madlib5 == "5" {
+        }else if madlib == "5"{
         print("Welcome to Mad Lib 5")
         //Enter Mad Lib 5 Here
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        }else{
-        var quit = input()
-        if quit == "Exit" {
-            print("Welcome to the Mad Lib, please type 'Start' to begin")
-            var begin1 = input()
-            begin = true
         
 
 
 
 
-            }}}}}}}}
-       
+
+        }else if madlib == "Exit" {
+            begin = false
+            //break
+    }}
