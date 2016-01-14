@@ -26,7 +26,7 @@ func input() -> String {
 //Group members: Luka (Leader), Alex, Devin
 
 var begin = true
-// Welcome screen, user input menu, each select to run Mad Lib to begin madlib, replay function, Mad Lib #1 'Summer Trip' created by Alex Y.
+// Welcome screen, user input menu, each select to run Mad Lib to begin madlib, replay function, Mad Lib #1 'Summer Trip', Mad Lib #2 'Bike Riding', Mad lib #3 'The Family Visit', Mad Lib #4 'How to Make an Ice-Cream Sundae', Mad Lib #5 ' ', and all explanatory comments created by Alex Y.
 
 
 while begin {
@@ -39,7 +39,7 @@ while begin {
         print("Please type the name a Mad Lib from one of these below")
         print("Summer Trip")
         print("Bike Riding")
-        print("Mad Lib 3")
+        print("The Family Visit")
         print("Mad Lib 4")
         print("Mad Lib 5")
         print("Exit")
@@ -108,7 +108,7 @@ while begin {
             
             
             
-        } else if madlib == "2"{
+        } else if madlib == "Bike Riding"{
         print("Welcome to Mad Lib 2, 'Bike Riding'")
         
         print("Please type a verb ending with 'ing'")
@@ -150,8 +150,7 @@ while begin {
         print("Please type a color")
         var color = input()
             
-        print("MADLIB 2 HERE")
-            
+        print("\(ingVerb) is a/an \(adj) form of exercise. \(ingVerb2) a bicycle enables you to develop your \(bPart) muscles as well as \(adverb) increase the rate of your \(bPart2) beat. More \(pNoun) around the world \(verb) bicycles than drive \(animals). No matter what kind of \(noun) you \(verb2), always be sure to wear a/an \(adj2) helmet. Make sure to have \(color) too!")
         
             
         print("Would you like to play again?")
@@ -163,27 +162,103 @@ while begin {
         
             
             
-        } else if madlib == "3" {
-        print("Welcome to Mad Lib 3")
-        //Enter Mad Lib 3 Here
+        } else if madlib == "The Family Visit" {
+        print("Welcome to Mad Lib 3, 'The Family Visit'")
+        
+        print("Please type an adjective")
+        var adj = input()
             
+        print("Please type an adjective")
+        var adj2 = input()
+            
+        print("Please type the name of a person")
+        var person = input()
+            
+        print("Please type a plural noun")
+        var noun = input()
+            
+        print("Please type a noun")
+        var noun2 = input()
+            
+        print("Please type a noun")
+        var noun3 = input()
+            
+        print("Please type a verb")
+        var verb = input()
 
+        print("Please type the name of a vegetable")
+        var veg = input()
             
+        print("Please type a color")
+        var color = input()
             
+        print("Please type an adjective")
+        var adj3 = input()
             
+        print("Please type a noun")
+        var noun4 = input()
+        
+        print("We are having a perfectly \(adj) time this afternoon in the \(adj2) home of \(person). The rooms are decorated with \(noun) for the holidays. We will feast on \(noun2) and corn on the \(noun3). After the big feast we will \(verb) alot of \(veg) pie and \(color) cake. Everyone retreats to the \(adj3) sofa to watch \(noun4).")
             
-
-            
+        print("Would you like to play again?")
+        print("Yes or no?")
+        var playAgain = input()
+        if playAgain == "Yes"{
+        begin = true
+        }
             
         } else if madlib == "4"{
-        print("Welcome to Mad Lib 4")
-        //Enter Mad Lib 4 Here
-           
-
-
-
-
-
+        print("Welcome to Mad Lib 4, 'How to make an Ice-Cream Sundae'")
+        
+        print("Please type a adjective")
+        var adj2 = input()
+            
+        print("Please type a noun")
+        var noun = input()
+            
+        print("Please type a noun")
+        var noun2 = input()
+            
+        print("Please type a verb")
+        var verb2 = input()
+            
+        print("Please type a color")
+        var color = input()
+            
+        print("Please type a plural noun")
+        var pnoun = input()
+            
+        print("Please type a body part")
+        var bPart = input()
+        
+        print("Please type a verb")
+        var verb3 = input()
+            
+        print("Please type the name of a body part")
+        var bPart2 = input()
+            
+        print("Please type an adjective")
+        var adj = input()
+            
+        print("Step 1: Always start by placing two scoops of delicious, \(adj2) ice cream into a bowl. A good scoop should be about the size of your \(noun). Step 2: Drizzle some hot caramel, chocolate sauce, and a heap of \(noun2) over the scoops of ice cream. The ice cream may start to \(verb2) a little, but don't worry. STep 3:")
+            
+        
+            
+            
+            
+            
+            
+            
+        print("Would you like to play again?")
+        print("Yes or no?")
+        var playAgain = input()
+        if playAgain == "Yes"{
+        begin = true
+        }
+            
+            
+            
+            
 
         }else if madlib == "5"{
         print("Welcome to Mad Lib 5")
@@ -196,5 +271,8 @@ while begin {
 
         }else if madlib == "Exit" {
             begin = false
-            //break
+            
+        }else{ print("Sorry I don't recognize that.")
+            begin = true
+        //break
     }}
