@@ -309,10 +309,10 @@ while begin {
 
             
 
-        }else if madlib == "Exit" {
+        }else if madlib == "Exit" { //Exit Command, to quick quit -Alex
             begin = false
             
-        }else{ print("Sorry I don't recognize that.")
+        }else{ print("Sorry I don't recognize that.") //I don't recognize command if enter anything that doesn't make sense. -Alex
             begin = true
         //break
     }}
