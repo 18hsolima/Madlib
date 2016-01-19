@@ -307,6 +307,6 @@ while begin {
             begin = false
             
         }else{ print("Sorry I don't recognize that.")
-            begin = false
+            begin = true
         //break
     }}
