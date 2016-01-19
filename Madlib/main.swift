@@ -300,7 +300,7 @@ while begin {
         print("We live on a lake. Today \(per) tested the ice. \(ex) it's frozen! Now I am off to \(verb) my skates. I \(verb2) in the \(place), not there. I look in the \(place2), nope not there. I search high and low for my ice \(noun). Ok, so the one place I haven't looked, \(verb3) my \(noun2). \(ex2) they are there! Let's go skating!")
             //Print function for Mad Lib 5. Prints Mad Lib 5 completed -Alex
             
-        print("Would you like to play again?") //Replay option for #5
+        print("Would you like to play again?") //Replay option for #5 -Alex
         print("Yes or no?")
         var playAgain = input()
         if playAgain == "Yes"{
