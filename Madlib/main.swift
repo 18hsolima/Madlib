@@ -28,7 +28,7 @@ func input() -> String {
 var begin = true
 // Welcome screen, user input menu, each select to run Mad Lib to begin madlib, replay function, Mad Lib #1 'Summer Trip', Mad Lib #2 'Bike Riding', Mad lib #3 'The Family Visit', Mad Lib #4 'How to Make an Ice-Cream Sundae', Mad Lib #5 'Skatin', and all explanatory comments created by Alex Y.
 
-    //Reason for single participation is becaus eof absances of the group. Not voluntary.
+    
 
 
 while begin {
